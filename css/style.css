@@ -72,13 +72,79 @@ img{
 /*---Utilidades---*/
 
 .no-margin{
-
-    margin:0;
+    margin: 0px;
+  
 }
 .no-padding{
-    padding: 0;
+    padding:0px;
 }
 
 .centrar-texto{
     text-align: center;
+}
+
+
+/*-------------------------------------*/
+
+.header{
+
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center center;
+}
+
+.header__texto{
+    color:var(--colorBlanco);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    
+    .header__texto{
+
+        margin-top: 15rem;
+    }
+
+.barra{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+}
+.logo{
+
+    color:var(--colorBlanco);
+  
+}
+
+.logo__nombre{
+    font-weight:400;
+    
+}
+
+.logo__bold{
+font-weight: 700;
+
+}
+
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color:var(--colorBlanco);
+}
+
+@media (min-width: 768px) {
+    .navegacion{
+        display:flex;
+        gap:2rem;
+
+    }
 }
