@@ -249,7 +249,7 @@ font-weight: bold;
 
 @media (min-width:768px) {
     
-   .sobre-nosotros{
+   /*.sobre-nosotros{
        display:flex;
        justify-content: space-between;
    }
@@ -258,5 +258,12 @@ font-weight: bold;
 
     flex-basis: calc(50% - 1rem);
    }
+*/
 
+.sobre-nosotros{
+
+    display:grid;
+    grid-template-columns: repeat( 2, 1fr);
+    column-gap: 2rem;
+}
 }
