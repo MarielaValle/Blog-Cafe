@@ -36,10 +36,10 @@ body{
 
 .contenedor{
 
-    max-width: 120rem;
-    width: 90%;
+   /*max-width: 120rem;
+    width: 90%;*/
     margin:0 auto;
-
+    width:min(90%, 120rem);
 }
 
 a {
@@ -114,6 +114,7 @@ img{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding:2rem;
     
 }
 
@@ -234,3 +235,13 @@ font-weight: bold;
 .widget-curso__info{
     font-size: 2rem;
 }
+
+/*-------Footer--------*/
+
+.footer{
+
+    background-color: var(--colorNegro);
+    
+    margin-top: 4rem;
+}
+
