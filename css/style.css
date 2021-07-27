@@ -267,3 +267,30 @@ font-weight: bold;
     column-gap: 2rem;
 }
 }
+
+/*---------------Cursos--------------------------*/
+
+.curso{
+    padding: 3rem 0px;
+    border-bottom:1px solid var(--colorGris)
+
+}
+
+.curso:last-of-type{
+    border:none;
+}
+
+@media (min-width: 768px) {
+    .curso{
+
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+    .curso__imagen,
+    .curso__informacion{
+
+        align-self: center;
+    }
+}
