@@ -344,3 +344,18 @@ border: 1px solid var(--colorGris)
       height: 20rem;
 
 }
+
+@media (max-width:400px ) {
+    
+
+   .campo{
+       font-size:1.2rem
+   }
+    .campo__label{
+        flex:0 0 6rem;
+        text-align: left;
+         padding-right: 0.5rem;
+    }
+    
+    
+}
