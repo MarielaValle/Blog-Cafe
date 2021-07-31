@@ -213,7 +213,8 @@ cursor: pointer;
 }
 
 .cursos{
-    list-style: none;
+    list-style:none;
+
 }
 .widget-curso{
 
@@ -241,6 +242,8 @@ font-weight: bold;
 .widget-curso__info{
     font-size: 2rem;
 }
+
+
 
 /*-------Footer--------*/
 
